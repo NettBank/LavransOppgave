@@ -1,4 +1,4 @@
 # Copyright (C) 2004 Lavrans August Tandberg Hernes
 
-# Teachers can use this as an example project. 
-# You can copy and use this code only for personal use. 
+# Lærere kan bruke denne som en eksempel tekst. 
+# Du kan kopiere koden kun for personlig bruk. 
