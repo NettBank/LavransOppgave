@@ -6,8 +6,10 @@ pygame.init()
 # Setter størrelsen på vinduet hvor 500 er høyden og 500 er bredden.
 VINDU_HØYDE = 500
 VINDU_BREDDEN = 500
+# Funksjon som får det til å fungere.
+def screen(VINDU_HØYDE, VINDU_BREDDEN, vindu):
+  pygame.init()
 vindu = pygame.display.set_mode((VINDU_BREDDEN, VINDU_HØYDE))
-
 # Setter tittelen på vinduet.
 pygame.display.set_caption("Lavrans sin høy måloppnåelse oppgave.")
 
@@ -21,7 +23,7 @@ velocity = 7
 # Main løkken.
 run = True
 while run:
-    # Setter en tidsdelay i spillet. 100 = 100 millisekunder. 100 millisekunder = 0.1 sekund.   
+    # Setter en tidsdelay i spillet. 100 = 100 millisekunder. 100 millisekunder = 0.1 sekund.
     pygame.time.delay(100)
 
     # Dette er en event som scanner alt som skjer fra brukeren, f.eks tastatur-trykk og musebevegelser.
